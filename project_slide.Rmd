@@ -13,13 +13,15 @@ library(readr)    # for reading CSVs
 library(readxl)   # for reading Excel files 
 library(dplyr)    # for data manipulation 
 library(ggplot2)  # for making graphs
+library(knitr)
+library(kableExtra)       # for datatable
 ```
 
 ```{r}
 chapters <- read_csv("Chapters.csv")  
 movies <- read_csv("Movies.csv") 
-Spells <- read_csv("Spells.csv")  
-spells <- Spells %>% mutate(lower_spell = tolower(`Spell Name`), lower_effect = tolower(`Effect`), lower_light = tolower(`Light`), across(where(is.character), ~replace_na(.x, "None"))) 
+Spells <- read_csv("Spells.csv")
+spells <- Spells %>% select(where(~ !all(is.na(.))))
 places <- read_csv("Places.csv") 
 Characters <- read.csv("Characters.csv", sep = ";", header = TRUE)
 characters <- Characters %>% mutate(across(where(is.character), ~replace_na(.x, "Unknown"))) 
@@ -131,6 +133,17 @@ ggplot(place_counts, aes(x = `Place Category`, y = n, fill = `Place Category`)) 
 
 # Spells
 ## What category do these spells fall into? (scroll box table)
+```{r}
+type_counts <- spells %>% 
+  count(`Type`)
+type_counts
+```
+```{r}
+ggplot(type_counts, aes(x = `Type`, y = n, fill = `Type`)) + 
+  geom_bar(stat = "identity") + 
+  theme_minimal() + 
+  labs( title = "Number of the Type of Spell per Category", x = "Type", y = "Number of Type") 
+```
 ```{r}
 
 ```
