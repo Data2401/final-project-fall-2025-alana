@@ -1,0 +1,239 @@
+---
+title: "final project"
+author: "Alana Flenoy"
+date: "November 10, 2025"
+output: slidy_presentation
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readr)    # for reading CSVs 
+library(readxl)   # for reading Excel files 
+library(dplyr)    # for data manipulation 
+library(ggplot2)  # for making graphs
+```
+
+```{r}
+chapters <- read_csv("Chapters.csv")  
+movies <- read_csv("Movies.csv") 
+Spells <- read_csv("Spells.csv")  
+spells <- Spells %>% mutate(lower_spell = tolower(`Spell Name`), lower_effect = tolower(`Effect`), lower_light = tolower(`Light`), across(where(is.character), ~replace_na(.x, "None"))) 
+places <- read_csv("Places.csv") 
+Characters <- read.csv("Characters.csv", sep = ";", header = TRUE)
+characters <- Characters %>% mutate(across(where(is.character), ~replace_na(.x, "Unknown"))) 
+dialogue <- read_excel("Dialogue.xlsx")
+Creatures <- read_csv("Creatures.csv")
+creatures <- Creatures  %>% select(where(~ !all(is.na(.))))
+
+head(chapters)
+head(movies)
+head(spells)
+head(places)
+head(characters)
+head(dialogue)
+head(creatures)
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+# Introduction
+Harry Potter is one of the most popular movie franchises of all time. The Harry Potter world 
+captivates its audience and leaves them with a sense of wonder and bewilderment. The data being analyzed
+will cover the characters, spells, places and dialogue within the books and movies, as well as the 
+results of the movies shown through the budget and box office for each movie.
+
+
+# Questions
+  - What percentage of gender, species,  is in each house and school
+  - How often does each character's name comes up in the dialogue?
+  - What percentage of characters are in each house and/or school?
+  - What is the most and least common wand type and how rare is the wand core?
+  - How much of each species there is?
+  - What are the most common and uncommon patronuses?
+  - What are the percentages of blood status in each house and school?
+
+# Key Terms
+
+## Spells
+
+### Charm, Jinx, Spell, or Curse
+  - charm: a spell that adds properties to an object or person without changing its fundamental nature
+  - jinx: a minor type of dark magic that causes inconvenience or mild harm to the target 
+  - spell: a command that uses a specific incantation and wand movement to produce a magical effect     
+  - curse: a command that uses a specific incantation and wand movement to produce a magical effect     
+  - offensive: are used to attack or harm an opponent 
+  - defensive: are used to protect against attacks      
+
+## Creatures
+
+### Mortality
+  - extant: still in existence 
+  - mortal: able to die 
+  - immortal: not able to die 
+  - amortal: immune to aging and disease but not to catastrophic physical harm, or a state of not         being alive or        dead 
+
+### Ministry of Magic Classification
+  - x creatures: harmless to humans 
+  - xx creatures: harmless and could be domesticated 
+  - xxx creatures: should be no trouble to competent wizards 
+  - xxxx creatures: dangerous and require special knowledge, only trained wizards should handle them,     endangered or just too difficult to capture, rather than being dangerous. 
+  - xxxxx creatures: are known wizard killers, are impossible to train or domesticate. 
+
+# House Distribution
+## How many characters are in which Hogwarts house? (bar chart)
+```{r}
+
+```
+
+
+# Blood-Status
+## What is the percentage of blood statuses? (bar chart)
+```{r}
+
+```
+
+
+# Wands
+## What is the least and most common wand wood and core type? (plot)
+I need to find a way to separate the wand length, wood, and core.
+```{r}
+
+```
+
+# Places
+## What is the top 10 most popular places? (table)
+I need to see how often each place is mentioned in the dialogue.
+```{r}
+
+```
+
+## Where every place mentioned is found? (bar chart)
+Diagon Alley, Dwellings, Hogsmeade, Hogwarts, Other Magic Locations 
+```{r}
+place_counts <- places %>% 
+  count(`Place Category`)
+place_counts
+```
+```{r}
+ggplot(place_counts, aes(x = `Place Category`, y = n, fill = `Place Category`)) + 
+  geom_bar(stat = "identity") + 
+  theme_minimal() + 
+  labs( title = "Number of Places per Category", x = "Place Category", y = "Number of Places") 
+```
+
+# Spells
+## What category do these spells fall into? (scroll box table)
+```{r}
+
+```
+
+  - charm: a spell that adds properties to an object or person without changing its fundamental nature
+  - jinx: a minor type of dark magic that causes inconvenience or mild harm to the target 
+  - spell: a command that uses a specific incantation and wand movement to produce a magical effect     
+  - curse: a command that uses a specific incantation and wand movement to produce a magical effect     
+  - offensive: are used to attack or harm an opponent 
+  - defensive: are used to protect against attacks  
+
+## Is the spell offensive or defensive? (bar chart)
+Add in a column of defensive or offensive
+```{r}
+
+```
+
+
+## Does the color of the light emmitted from the spell that was cast correlate with which type of spell it is?
+```{r}
+
+```
+
+
+# Patronus
+## How many characters have a certain patronus? (plot)
+```{r}
+
+```
+
+
+# Creatures
+## What creature are the characters classified as? 
+```{r}
+
+```
+
+## What id the distribution of mortality and status? (bar)
+```{r}
+
+```
+
+  - mortal: able to die 
+  - immortal: not able to die 
+  - amortal: immune to aging and disease but not to catastrophic physical harm, or a state of not         being alive or        dead 
+  - extant: still in existence 
+
+## What is the distribution of the Ministry of Magic classifications? (bar)
+```{r}
+
+```
+
+  - x creatures: harmless to humans 
+  - xx creatures: harmless and could be domesticated 
+  - xxx creatures: should be no trouble to competent wizards 
+  - xxxx creatures: dangerous and require special knowledge, only trained wizards should handle them,     endangered or just too difficult to capture, rather than being dangerous 
+  - xxxxx creatures: are known wizard killers, are impossible to train or domesticate 
+  - being: any creature that has sufficient intelligence to understand the laws of the magical community and to bear part of  the responsibility in shaping those laws
+  - spirit: any creature that has a spectral body, is unaffected by gravity and is not actually alive
+  - non-being: are not born and can not be killed
+
+## Where are the creatures native to? (bar)
+by continent
+```{r}
+
+```
+
+
+# Movies
+## What is the correlation between the movie number and run-time? (bar maybe)
+```{r}
+
+```
+
+
+## What is the return of investment? (line table)
+return = (future value - initial value) / initial value
+
+```{r}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
