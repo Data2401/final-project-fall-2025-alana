@@ -3,6 +3,9 @@ title: "final project"
 author: "Alana Flenoy"
 date: "November 10, 2025"
 output: slidy_presentation
+knitr:
+  opts_chunk: 
+    echo: false
 ---
 
 
@@ -14,7 +17,8 @@ library(readxl)   # for reading Excel files
 library(dplyr)    # for data manipulation 
 library(ggplot2)  # for making graphs
 library(knitr)
-library(kableExtra)       # for datatable
+library(kableExtra) # for datatable
+library(stringr)  # for string analysis
 ```
 
 ```{r message = F, echo = F}
@@ -23,8 +27,8 @@ movies <- read_csv("Movies.csv")
 Spells <- read_csv("Spells.csv")
 spells <- Spells %>% select(where(~ !all(is.na(.))))
 places <- read_csv("Places.csv") 
-Characters <- read.csv("Characters.csv", sep = ";", header = TRUE)
-characters <- Characters %>% mutate(across(where(is.character), ~replace_na(.x, "Unknown"))) 
+Characterss <- read_csv("Characterss.csv")
+characters <- Characterss %>% mutate(across(where(is.character), ~replace_na(.x, "Unknown"))) 
 dialogue <- read_excel("Dialogue.xlsx")
 Creatures <- read_csv("Creatures.csv")
 creatures <- Creatures  %>% select(where(~ !all(is.na(.))))
@@ -42,13 +46,6 @@ head(dialogue)
 head(creatures)
 ```
 
-```{r}
-
-```
-
-```{r}
-
-```
 
 # Introduction
 
@@ -103,8 +100,25 @@ results of the movies shown through the budget and box office for each movie.
 # House Distribution
 ## How many characters are in which Hogwarts house? (bar chart)
 
-```{r}
 
+```{r,fig.height=8, fig.width=10, echo = FALSE}
+house_counts <- characters %>% 
+  filter(House %in% c("Beauxbatons Academy of Magic", "Durmstrang Institute", "Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin")) %>% 
+  count(`House`)
+
+ggplot(house_counts, aes(x = House, y = n, fill = `House`)) + 
+  geom_bar(stat = "identity") + 
+  theme_grey() + 
+  labs( title = "Number of Students Per Hogwarts House", x = "Hogwarts House", y = "Number of Students") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  geom_text(aes(x = House, y = 1, label = n), color = "white") +
+  scale_x_discrete(labels = c("Beauxbatons Academy of Magic" = "Beauxbatons", "Durmstrang Institute" = "Durmstrang")) +
+  scale_fill_manual(values=c("lightskyblue",
+                             "red3",
+                             "firebrick4",
+                             "darkgoldenrod1", 
+                             "midnightblue",
+                             "darkgreen"))
 ```
 
 
@@ -119,42 +133,103 @@ results of the movies shown through the budget and box office for each movie.
 # Wands
 
 ## What is the least and most common wand wood and core type? (plot)
+
 I need to find a way to separate the wand length, wood, and core.
 ```{r}
-# length wood core
-str_split_fixed(characters$Wand, "\"", n = 2)
+# clean data
+characters_filt <- characters %>% 
+  mutate( `Wand Wood` = str_squish(`Wand Wood`), 
+          `Wand Core` = str_squish(`Wand Core`)) %>% 
+  filter( !tolower(`Wand Wood`) %in% c("unknown", "none"), !tolower(`Wand Core`) %in% c("unknown", "none")) 
+
+# count the wood and core types
+wood_counts <- characters_filt %>% count(`Wand Wood`, name = "wood count", sort = TRUE) 
+core_counts <- characters_filt %>% count(`Wand Core`, name = "core count", sort = TRUE) 
+
+# most and least used core and wood types
+most_used_wood <- wood_counts$`Wand Wood`[1] 
+least_used_wood <- wood_counts$`Wand Wood`[nrow(wood_counts)] 
+most_used_core <- core_counts$`Wand Core`[1] 
+least_used_core <- core_counts$`Wand Core`[nrow(core_counts)] 
+
+# put in one table to make it easier
+wood_core_table <- tibble("Most Used Wood Type" = most_used_wood, "Least Used Wood" = least_used_wood, "Most Used Core" = most_used_core, "Least Used Core" = least_used_core ) 
+
+wood_core_table
 
 ```
 
+```{r,fig.height=6, fig.width=8, echo = FALSE}
+
+bar_data <- tibble( Type = c("Most Used Wood", "Least Used Wood", "Most Used Core", "Least Used Core"), 
+                    Name = c(most_used_wood, least_used_wood, most_used_core, least_used_core), 
+                    Count = c( wood_counts$`wood count`[wood_counts$`Wand Wood` == most_used_wood], wood_counts$`wood count`[wood_counts$`Wand Wood` == least_used_wood], core_counts$`core count`[core_counts$`Wand Core` == most_used_core], core_counts$`core count`[core_counts$`Wand Core` == least_used_core])) 
+
+bar_data$Name <- factor(bar_data$Name, levels = c(least_used_core, most_used_core, least_used_wood, most_used_wood))
+
+ggplot(bar_data, aes(x = Name, y = Count, fill = Type)) +
+  geom_col() +
+  geom_text(aes(label = Count), hjust = -0.5) +
+  coord_flip() +
+  scale_fill_manual(values = c("Most Used Wood" = "coral2", 
+                               "Least Used Wood" = "tan1", 
+                               "Most Used Core" = "red3", 
+                               "Least Used Core" = "black" )) +
+  theme_grey() +
+  labs( title = "Most and Least Used Wand Woods and Cores", x = "Wand Type", y = "Count", fill = "" )
+```
+
+
+
 # Places
+
 ## What is the top 10 most popular places? (table)
+
 I need to see how often each place is mentioned in the dialogue.
 ```{r}
 
 ```
 
+---
+
 ## Where every place mentioned is found? (bar chart)
+
 Diagon Alley, Dwellings, Hogsmeade, Hogwarts, Other Magic Locations 
-```{r}
+
+```{r,fig.height=8, fig.width=10, echo = FALSE}
 place_counts <- places %>% 
   count(`Place Category`)
 
 ggplot(place_counts, aes(x = `Place Category`, y = n, fill = `Place Category`)) + 
   geom_bar(stat = "identity") + 
-  theme_minimal() + 
-  labs( title = "Number of Places per Category", x = "Place Category", y = "Number of Places") 
+  theme_grey() + 
+  labs( title = "Number of Places per Category", x = "Place Category", y = "Number of Places") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_manual(values = c("azure4",
+                             "burlywood4",
+                             "indianred4",
+                             "firebrick4", 
+                             "gray3"))
 ```
 
 # Spells
-## What category do these spells fall into? (scroll box table)
-```{r}
+
+## What category do these spells fall into? 
+```{r,fig.height=8, fig.width=10, echo = FALSE}
 type_counts <- spells %>% 
   count(`Type`)
 
 ggplot(type_counts, aes(x = `Type`, y = n, fill = `Type`)) + 
   geom_bar(stat = "identity") + 
-  theme_minimal() + 
-  labs( title = "Spell Type", x = "Type", y = "Amount of Spell Type") 
+  theme_grey() + 
+  labs( title = "Spell Type", x = "Type", y = "Amount of Spell Type") +
+  scale_fill_manual(values = c("azure1",
+                             "seagreen3",
+                             "chocolate1",
+                             "grey43", 
+                             "red3"))
+
+
 ```
 
 
@@ -166,9 +241,23 @@ ggplot(type_counts, aes(x = `Type`, y = n, fill = `Type`)) +
 ---
 
 ## Is the spell offensive or defensive? (bar chart)
-Add in a column of defensive or offensive
-```{r}
 
+```{r,fig.height=7, fig.width=9, echo = FALSE}
+spell_counts <- spells %>% 
+  count(`Offensive or Defensive`, name = "Count") 
+
+spell_counts <- spell_counts %>% mutate(percent = round(Count / sum(Count) * 100, 1), Label = paste0(`Offensive or Defensive`, "\n", percent, "%")) 
+
+ggplot(spell_counts, aes(x = "", y = Count, fill = `Offensive or Defensive`)) + 
+  geom_col(width = 1) + 
+  coord_polar(theta = "y") + 
+  geom_text(aes(label = Label), position = position_stack(vjust = 0.5), color = "white") +
+  theme_void() + 
+  scale_fill_manual(values = c("lightslateblue",
+                                 "cornflowerblue",
+                                 "grey56", 
+                                 "indianred3")) +
+  labs(title = "Distribution of Offensive or Defensive Spells", fill = "Offensive or Defensive") 
 ```
   - offensive: are used to attack or harm an opponent 
   - defensive: are used to protect against attacks  
@@ -202,31 +291,41 @@ kable(cbind(spell_incantation, spell_type, spell_light), "html") %>%
 
 ## What is the distribution of mortality and status? (bar)
 ### Mortality
-```{r}
+```{r,fig.height=8, fig.width=10, echo = FALSE}
 mortality <- creatures %>% 
-  count(mortality)
+  count(mortality) %>%
+  na.omit(creatures$mortality)
 
 ggplot(mortality, aes(x = `mortality`, y = n, fill = `mortality`)) + 
   geom_bar(stat = "identity") + 
-  theme_minimal() + 
+  theme_grey() + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+    scale_fill_manual(values = c("azure4",
+                                 "black",
+                                 "grey82", 
+                                 "slategrey")) +
   labs( title = "Distribution of Creatures' Mortality", x = "Type of Mortality", y = "Number of Creatures") 
 ```
+ 
   - mortal: able to die 
   - immortal: not able to die 
-  - amortal: immune to aging and disease but not to catastrophic physical harm, or a state of not         being alive or        dead 
+  - amortal: immune to aging and disease but not to catastrophic physical harm, or a state of not being alive or dead 
 
 ---
 
 ### Status of Existence
-```{r}
+```{r,fig.height=8, fig.width=10, echo = FALSE}
 status <- creatures %>% 
   count(status)
 
 ggplot(status, aes(x = `status`, y = n, fill = `status`)) + 
   geom_bar(stat = "identity") + 
-  theme_minimal() + 
+  theme_grey() + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_fill_manual(values = c("firebrick3",
+                               "seagreen3",
+                               "grey28", 
+                               "grey70")) +
   labs( title = "Distribution of Creatures' Status of Existence", x = "Type of Status", y = "Number of Creatures") 
 ```
   
@@ -236,26 +335,49 @@ ggplot(status, aes(x = `status`, y = n, fill = `status`)) +
 
 ---
 
-## What is the distribution of the Ministry of Magic classifications? (bar)
-```{r}
-min_of_mag_class <- creatures %>% 
-  count(`ministry of magic classification`)
+## Ministry of Magic Classifications
 
-ggplot(min_of_mag_class, aes(x = `ministry of magic classification`, y = n, fill = `ministry of magic classification`)) + 
+  - beast: classified as a beast but wasn't classified based on how harmful they are
+  
+  - x beast: harmless to humans 
+  
+  - xx beast: harmless and could be domesticated 
+  
+  - xxx beast: should be no trouble to competent wizards 
+  
+  - xxxx beast: dangerous and require special knowledge, only trained wizards should handle them, endangered or just too difficult to capture, rather than being dangerous 
+  
+  - xxxxx beast: are known wizard killers, are impossible to train or domesticate 
+  
+  - being: any creature that has sufficient intelligence to understand the laws of the magical community and to bear part of  the responsibility in shaping those laws
+  
+  - spirit: any creature that has a spectral body, is unaffected by gravity and is not actually alive
+  
+  - non-being: are not born and can not be killed
+
+---
+
+```{r,fig.height=8, fig.width=10, echo = FALSE}
+min_of_mag_class <- creatures %>% 
+  count(`ministry of magic classification`) %>% 
+  na.omit(creatures$`ministry of magic classification`)
+
+ggplot(min_of_mag_class, aes(x = fct_rev(`ministry of magic classification`), y = n, fill = `ministry of magic classification`)) + 
   geom_bar(stat = "identity") + 
-  theme_minimal() + 
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  coord_flip() +
+  theme_grey() + 
+  scale_fill_manual(values = c("indianred4",
+                               "firebrick4",
+                               "firebrick", 
+                               "firebrick3",
+                               "firebrick2",
+                               "firebrick1",
+                               "tan2",
+                               "gold",
+                               "azure3",
+                               "grey68")) 
   labs( title = "Creatures' Classification by the Ministry of Magic", x = "Classification", y = "Number of Creatures") 
 ```
-  - beast: classified as a beast but wasn't classified based on how harmful they are
-  - x beast: harmless to humans 
-  - xx beast: harmless and could be domesticated 
-  - xxx beast: should be no trouble to competent wizards 
-  - xxxx beast: dangerous and require special knowledge, only trained wizards should handle them,     endangered or just too difficult to capture, rather than being dangerous 
-  - xxxxx beast: are known wizard killers, are impossible to train or domesticate 
-  - being: any creature that has sufficient intelligence to understand the laws of the magical community and to bear part of  the responsibility in shaping those laws
-  - spirit: any creature that has a spectral body, is unaffected by gravity and is not actually alive
-  - non-being: are not born and can not be killed
 
 ---
 
@@ -267,11 +389,13 @@ by continent
 
 
 # Movies
+
 ## What is the correlation between the movie number and run-time? (bar maybe)
 ```{r}
 
 ```
 
+---
 
 ## What is the return of investment? (line table)
 return = (future value - initial value) / initial value

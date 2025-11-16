@@ -1,0 +1,141 @@
+Id,Name,Gender,Job,House,Wand Length,Wand Wood,Wand Core,Patronus,Species,Blood status,Hair colour,Eye colour,Loyalty,Skills,Birth,Death
+1,Harry James Potter,male,Student,Gryffindor,"11""  ",Holly,Phoenix Feather,Stag,Human,Half-blood,black,bright green,Albus Dumbledore | Dumbledore's Army | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Parseltongue| Defence Against the Dark Arts | Seeker,31-Jul-80,Unknown
+2,Ronald Bilius Weasley,male,Student,Gryffindor,"12"" ",Ash,Unicorn Tail Hair,Jack Russell terrier,Human,Pure-blood,red,blue,Dumbledore's Army | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Wizard chess | Quidditch goalkeeping,1-Mar-80,Unknown
+3,Hermione Jean Granger,female,Student,Gryffindor,"10.75"" ",Vine,Dragon Heartstring,Otter,Human,Muggle-born,brown,brown,Dumbledore's Army | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Almost everything,19-Sep,Unknown
+4,Albus Percival Wulfric Brian Dumbledore,male,Headmaster,Gryffindor,"15""",Elder,Thestral Tail Hair,Phoenix,Human,Half-blood,silver | formerly auburn,blue,Dumbledore's Army | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Considered by many to be one of the most powerful wizards of his time,Late August 1881,30-Jun
+5,Rubeus Hagrid,male,Keeper of Keys and Grounds | Professor of Care of Magical Creatures ,Gryffindor,"16""",Oak,Unknown,None,Half-Human | Half-Giant,Part-Human | Half-giant,black,black,Albus Dumbledore | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Resistant to stunning spells| Above average strength | Crossbowmanship,6 December 1928,Unknown
+6,Neville Longbottom,male,Student,Gryffindor,"13""",Cherry,Unicorn Tail Hair,Non-corporeal,Human,Pure-blood,blonde,unknown,Dumbledore's Army | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Herbology,30-Jul,Unknown
+7,Fred Weasley,male,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,red,brown,Dumbledore's Army | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Beater,1-Apr,Unknown
+8,George Weasley,male,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,red,brown,Dumbledore's Army | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Beater,1-Apr,Unknown
+9,Ginevra (Ginny) Molly Weasley,female,Student,Gryffindor,Unknown,Unknown,Unknown,Horse,Human,Pure-blood,red,bright brown,Dumbledore's Army | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Chaser | Bat-Bogey hex,11-Aug,Unknown
+10,Dean Thomas,male,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Muggle-born,black,brown,Dumbledore's Army | Hogwarts School of Witchcraft and Wizardry,Chaser, 1 September 1979- 31 August 1980,Unknown
+11,Seamus Finnigan,male,Student,Gryffindor,Unknown,Unknown,Unknown,Fox,Human,Half-blood,sandy,unknown,Dumbledore's Army | Hogwarts School of Witchcraft and Wizardry,Pyrotechnics, 1 September 1979- 31 August 1981,Unknown
+12,Lily J. Potter,female,Unknown,Gryffindor,"10.25""",Willow,Unknown,Doe,Human,Muggle-born,auburn,bright green,Order of the Phoenix,Unknown,30-Jan,Unknown
+13,James Potter,male,Unknown,Gryffindor,"11""",Mahogany,Unknown,Stag,Human,Pure-blood,black,hazel,Order of the Phoenix,Animagus  Seeker,27-Mar,Unknown
+14,Sirius Black,male,Unknown,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,black,grey,Order of the Phoenix,Animagus | Nonverbal magic | Charms,3-Nov,Unknown
+15,Remus John Lupin,male,Professor of Defence Against the Dark Arts ,Gryffindor,"10.25"" ",Cypress,Unicorn Tail Hair,Wolf,Werewolf,Half-blood,light brown | flecked with grey,green,Order of the Phoenix,Exceptionally gifted in Defence Against the Dark Arts,10-Mar,Unknown
+16,Peter Pettigrew,male,The Servant of Lord Voldemort,Gryffindor,"9.25"" ",Chestnut,Dragon Heartstring,None,Human,Half-blood or pure-blood,colorless | balding,blue,Lord Voldemort| Death Eaters,Animagus,1 September 1959- 31 August 1960,Late March 1998
+17,Percy Ignatius Weasley,male,Student|Prefect|  Personal assistant to Barty Crouch Snr ,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,red,blue,Order of the Phoenix| Hogwarts School of Witchcraft and Wizardry |British Ministry of Magic,Intelligent | Hard-working | Model student,22-Aug,Unknown
+18,(Bill) William Arthur Weasley,male,Curse-Breaker for Gringotts Bank,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human (Werewolf traits),Pure-blood,red,blue,Order of the Phoenix,Highly skilled curse-breaker for Gringotts Wizarding Bank | Very intelligent | Past Hogwarts Head Boy,29-Nov,Unknown
+19,Charles Weasley,male,Dragonologist,Gryffindor,"12"" ",Ash,Unicorn Tail Hair,Unknown,Human,Pure-blood,red,grey,Order of the Phoenix | Gringotts Wizarding Bank,Unknown,12-Dec,Unknown
+20,Lee Jordan ,male,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,black,brown,Dumbledore's Army | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Quidditch commentary | Broadcasting, 1 September 1977- 31 August 1978,Unknown
+21,Oliver Wood,male,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or Half-blood,unknown,unknown,Hogwarts School of Witchcraft and Wizardry,Keeper | Captain of the Gryffindor Quidditch team, October 1975 - 31 August 1976,Unknown
+22,Angelina Johnson,female,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Unknown,brown,brown,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Chaser,24 – 30 October,Unknown
+23,Katie Bell,female,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,brown,brown,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Chaser, 1 September 1978- 31 August 1979,Unknown
+24,Alicia Spinnet,female,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,brown,brown,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Chaser,1 September 1977- 31 August 1978,Unknown
+25,Lavender Brown,female,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,blonde,blue,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Divination, 1 September 1979- 31 August 1980,2-May
+26,Parvati Patil,female,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,dark,dark,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Divination, 1 September 1979- 21 April 1980,Unknown
+27,Romilda Vane,female,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,black,dark,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Spiking Chocolate Cauldrons with love potion, 1 September 1981- 31 August 1982,Unknown
+28,Colin Creevey,male,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Muggle-born,mousy,unknown,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Photography, 3 May - 31 August 1981,2-May
+29,Cormac McLaggen,male,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,blaonde,unknown,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Quidditch Keeper, 1 September 1978- 31 August 1979,Unknown
+30,Minerva McGonagall,female,Professor of Transfiguration | Head of Gryffindor,Gryffindor,"9.5""",Fir,Dragon Heartstring,Cat,Human,Half-blood,black,green,Albus Dumbledore | Order of the Phoenix | Hogwarts School of Witchcraft and Wizardry,Animagus ,4-Oct,Unknown
+31,Molly Weasley,female,Unknown,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,red,bright brown,Order of the Phoenix,Household spells | healing magic,30-Oct,Unknown
+32,Arthur Weasley,male,Head of the Misuse of Muggle Artefacts Office,Gryffindor,Unknown,Unknown,Unknown,Weasel,Human,Pure-blood,red,green,Order of the Phoenix| British Ministry of Magic,Muggle world works,6-Feb,Unknown
+33,Quirinus Quirrell,male,Defence Against the Dark Arts(1991-1992),Ravenclaw,"9""",Alder,Unicorn Tail Hair,Non-corporeal,Human,Half-blood,unknown,unknown,Lord Voldemort,Learned in the theory of Defensive Magic | Less adept in the practise,26-Sep,Unknown
+34,Cho Chang,female,Student,Ravenclaw,Unknown,Unknown,Unknown,Swan,Human,Pure-blood or half-blood,black,dark,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Seeker,1 September 1978-31 August 1979,Unknown
+35,Luna Lovegood,female,Student,Ravenclaw,Unknown,Unknown,Unknown,Hare,Human,Pure-blood or half-blood,dirty-blonde,pale silvery,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Spotting Nargles,13-Feb,Unknown
+36,Gilderoy Lockhart,male,Defence Against the Dark Arts(1992-1993),Ravenclaw,"9""",Cherry,Dragon Heartstring,Non-corporeal,Human,Half-blood,blonde,blue,Unknown,Unknown,26-Jan-64,Unknown
+37,Filius Flitwick,male,Professor of Charms | Head of Ravenclaw,Ravenclaw,Unknown,Unknown,Unknown,Non-corporeal,Human | Goblin,Part-Goblin,white,unknown,Unknown,Charms,17 October 1958 or earlier ,Unknown
+38,Sybill Patricia Trelawney,female,Professor of Divination,Ravenclaw,9 .5”,Hazel,Unicorn Tail Hair,Non-corporeal,Human,Half-blood,unknown,unknown,Unknown,A Seer,Unknown,Unknown
+39,Garrick Ollivander,male,Wandmaker,Ravenclaw,"12.75""",Hornbeam,Dragon Heartstring,Non-corporeal,Human,Half-blood,unknown,silvery,Unknown,An incomparable understanding of wandcraft,25-Sep,Unknown
+40,Myrtle Elizabeth Warren (Moaning Myrtle),female,Student,Ravenclaw,Unknown,Unknown,Unknown,Unknown,Ghost,Muggle-born,unknown,unknown,Unknown,Unknown,14 June 1928 -13 June 1929,13-Jun
+41,Padma Patil,female,Student,Ravenclaw,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood or half-blood,dark,dark,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Prefect, 1 September 1979 - 21 April 1980,Unknown
+42,Michael Corner,male,Student,Ravenclaw,Unknown,Unknown,Unknown,Squirrel,Human,Half-blood,black,brown,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Potions, 1 September 1979 - 31 August 1980,Unknown
+43,Marietta Edgecombe,female,Student,Ravenclaw,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,reddish-blonde,grey,Unknown,Covering up the spots that blight her face after betraying Dumbledore's Army,1978-1979,Unknown
+44,Terry Boot,male,Student,Ravenclaw,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,unknown,unknown,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Potions,Unknown,Unknown
+45,Anthony Goldstein,male,Student,Ravenclaw,Unknown,Unknown,Unknown,Non-corporeal,Human,Half-blood,blonde,grey,Dumbledore's Army |Hogwarts School of Witchcraft and Wizardry,Prefect, 1 September 1979- 31 August 1980,Unknown
+46,Severus Snape,male,Professor of Potions | Head of Slytherin,Slytherin,Unknown,Unknown,Unknown,Doe,Human,Half-blood,black,black,Unknown,Extremely skilled at potions and Occlumency,9-Jan-60,2-May
+47,Draco Malfoy,male,Student,Slytherin,"10""",Hawthorn,Unicorn Tail Hair,Unknown,Human,Pure-blood,white-blonde,grey,Unknown,Prefect,Unknown,Unknown
+48,Vincent Crabbe,male,Student,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,black,black,Unknown,Beater,c. 1979-1980,2-May
+49,Gregory Goyle,male,Student,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,brown,unknown,Unknown,Beater,1 September 1979-31 August 1980,Unknown
+50,Bellatrix Lestrange,female,Unknown,Slytherin,"12.75""",Walnut,Dragon Heartstring,Unknown,Human,Pure-blood,black,unknown,Lord Voldemort  | Death Eaters,She is a duellist of great skill and an experienced Occlumens,1951,2-May
+51,Dolores Jane Umbridge,female,Professor of Defence Against the Dark Arts | Department of Magical Law Enforcement,Slytherin,"8""",Birch,Dragon Heartstring,Cat,Human,Half-blood,iron grey,unknown,Ministry of Magic,Her punishment quill is of her own invention,26-Aug,Unknown
+52,Horace Eugene Flaccus Slughorn,male,Professor of Potions ,Slytherin,"10.25""",Cedar,Dragon Heartstring,Non-corporeal,Human,Pure-blood or half-blood,bald,gooseberry,Unknown,Accomplished Occlumens,Unknown,Unknown
+53,Lucius Malfoy,male,School Governor,Slytherin,Unknown,Elm,Dragon Heartstring,Unknown,Human,Pure-blood,white-blonde,grey,Lord Voldemort  | Death Eaters,Skilled duellist and potioneer,c. 1954,Unknown
+54,Narcissa Malfoy,female,Unknown,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,blonde,blue,Lord Voldemort  | Death Eaters,Unknown,1955,Unknown
+55,Regulus Arcturus Black,male,Unknown,Slytherin,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood,black,unknown,Unknown,Seeker,1961,1979
+56,Pansy Parkinson,female,Student,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,unknown,unknown,Unknown,Prefect, 1 September 1979- 31 August 1980,Unknown
+57,Blaise Zabini,male,Student,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,black,brown,Unknown,Chaser,1-Sep,Unknown
+58,Tom Marvolo Riddle,male,Student,Slytherin,"13.5""",Yew,Phoenix Feather,Unknown,Human,Half-blood,bald,scarlet,Unknown,Dark Lord,Unknown,Unknown
+59,Theodore Nott,male,Student,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,brown,unknown,Unknown,Unknown,1-Sep,Unknown
+60,Rodolphus Lestrange,male,Unknown,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,dark,dark,Lord Voldemort  | Death Eaters,Unknown,Pre 1964,Unknown
+61,Millicent Bulstrode,female,Student,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Half-blood,black,unknown,Unknown,Unknown,1 September 1979- 31 August 1980 ,Unknown
+62,Graham Montague,male,Student,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,brown,brown,Unknown,Quidditch captain,Unknown,Unknown
+63,Bloody Baron,male,Slytherin House Ghost,Slytherin,Unknown,Unknown,Unknown,Unknown,Ghost,Pure-blood or half-blood,unknown,unknown,Unknown,Controlling Peeves,Post 982,11th century
+64,Marcus Flint,male,Student,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,black,unknown,Unknown,Chaser,Unknown,Unknown
+65,Penelope Clearwater,female,Student,Ravenclaw,Unknown,Unknown,Unknown,Non-corporeal,Human,Muggle-born or half-blood[,blonde,unknown,Unknown,Prefect, 1 September 1975- 31 August 1976,Unknown
+66,Roger Davies,male,Student,Ravenclaw,Unknown,Unknown,Unknown,Unknown,Human,Unknown,dark,unknown,Unknown,Quidditch Captain,Unknown,Unknown
+67,Marcus Belby,male,Student,Ravenclaw,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,brown,dark,Unknown,Unknown, 1 September 1978 - 31 August 1979,Unknown
+68,Salazar Slytherin,male,Founder of Slytherin,Slytherin,snakewood,Unknown,Unknown,Unknown,Human,Pure-blood,unknown,unknown,Unknown,Unknown,Unknown,Unknown
+69,Godric Gryffindor,male,Founder of Gryffindor,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood|half-blood,red,green,Unknown,The most accomplished duellist of his time,Pre 976,11th century
+70,Rowena Ravenclaw,female,Founder of Ravenclaw,Ravenclaw,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood|half-blood,black,dark,Unknown,Extremely skilled witch,Unknown,Unknown
+71,Nicholas de Mimsy-Porpington,male,Gryffindor House Ghost,Gryffindor,Unknown,Unknown,Unknown,Unknown,Ghost,Unknown,grey,unknown,Unknown,Unknown,1401 -1475,31-Oct
+72,Cuthbert Binns,male,Professor of History of Magic ,Unknown,Unknown,Unknown,Unknown,Unknown,Ghost,Unknown,white | balding,black,Unknown,Boring a class with facts that might be interesting if anyone else was giving the lesson,Unknown,Pre 1970s
+73,Barty Crouch Jr.,male,Professor of Defence Against the Dark Arts (as Alastor Moody) ,Unknown,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,strawberry-blonde,pale,Unknown,Unknown,Unknown,Unknown
+74,Charity Burbage,female,Professor of Muggle Studies,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood or half-blood,blonde,unknown,Unknown,Teaching and studying the Muggle world,Before 1976,Late July
+75,Firenze,male,Professor of Divination,Unknown,Unknown,Unknown,Unknown,Unknown,Centaur,Unknown,white-blonde,blue,Unknown,Unknown,Unknown,Unknown
+76,Alecto Carrow,female,Professor of Muggle Studies,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,unknown,unknown,Lord Voldemort  | Death Eaters,Spreading anti-Muggle propaganda,Pre 1981,Unknown
+77,Amycus Carrow,male,Professor of Dark Arts,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,unknown,unknown,Lord Voldemort  | Death Eaters,Cruciatus Curse,Pre 1982,Unknown
+78,Helga Hufflepuff,female,Founder of Hufflepuff,Hufflepuff,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,brown,blue,Unknown,Food-related Charms. Many traditional Hogwarts recipes originated with her,Pre 976,11th century
+79,Fat Friar,male,Hufflepuff House Ghost,Hufflepuff,Unknown,Unknown,Unknown,Unknown,Ghost,Unknown,brown,unknown,Unknown,Curing peasants of the pox,10th century,Pre 1988
+80,Helena Ravenclaw,female,Ravenclaw House Ghost,Ravenclaw,Unknown,Unknown,Unknown,Unknown,Ghost,Pure-blood or half-blood,black,grey,Unknown,Unknown,Post 982,996-1000
+81,Nymphadora Tonks,female,Auror,Hufflepuff,Unknown,Unknown,Unknown,Jack rabbit,Human | Metamorphmagus,Unknown,unknown,unknown,Unknown,Unknown,Unknown,Unknown
+82,Pomona Sprout,male,Professor of Herbology | Head of Hufflepuff House,Hufflepuff,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood or half-blood,unknown,grey,Unknown,Herbology,15-May,Unknown
+83,Newton Scamander,male,Employee in the Beast Division of the Department for the Regulation and Control of Magical Creatures,Hufflepuff,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,red-brown,blue,Unknown,Magizoology,Unknown,Unknown
+84,Cedric Diggory,male,Student,Hufflepuff,"12¼""",Unknown,Unknown,Unknown,Human,Pure-blood,unknown,unknown,Unknown,Unknown,Unknown,Unknown
+85,Justin Finch-Fletchley,male,Student,Hufflepuff,Unknown,Unknown,Unknown,Non-corporeal,Human,Muggle-born,red,unknown,Dumbledore's Army,Unknown,1 September 1979- 31 August 1980,Unknown
+86,Zacharias Smith,male,Student,Hufflepuff,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,blonde,unknown,Dumbledore's Army,Chaser,1 September 1979 - 2 May 1981,Unknown
+87,Hannah Abbott,female,Student,Hufflepuff,Unknown,Unknown,Unknown,Non-corporeal,Human,Half-blood,blonde,brown,Dumbledore's Army,Defensive spells,Unknown,Unknown
+88,Ernest Macmillan,male,Student,Hufflepuff,Unknown,Unknown,Unknown,Boar,Human,Pure-blood,blonde,unknown,Dumbledore's Army,Revising,Unknown,Unknown
+89,Susan Bones,female,Student,Hufflepuff,Unknown,Unknown,Unknown,Unknown,Human,Half-blood,unknown,unknown,Dumbledore's Army,Defensive spells,Unknown,Unknown
+90,Walden Macnair,male,Executioner for the Committee for the Disposal of Dangerous Creatures,Slytherin,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,black,unknown,Lord Voldemort  | Death Eaters,Liaising with giants,In | before 1970s,Unknown
+91,Augustus Rookwood,male,Unspeakable,Slytherin,Unknown,Unknown,Unknown,None,Human,Pure-blood or half-blood,brown | greying,unknown,Lord Voldemort  | Death Eaters,Spying for Lord Voldemort,Pre 1964,Unknown
+92,Antonin Dolohov,male,Death Eater,Slytherin,Unknown,Unknown,Unknown,None,Human,Pure-blood or Half-blood,dark,unknown,Lord Voldemort  | Death Eaters,Duelling. Fought and killed Molly Weasley's brothers and Remus Lupin,Pre 1950,Unknown
+93,Corban Yaxley,male,Head of the Department of Magical Law Enforcement,Slytherin,Unknown,Unknown,Unknown,None,Human,Pure-blood or Half-blood,blonde,blue,Lord Voldemort  | Death Eaters,Imperius curse,Unknown,Unknown
+94,Igor Karkaroff,male,Headmaster of Durmstrang Institute,Durmstrang Institute,Unknown,Unknown,Unknown,None,Human,Pure-blood or Half-blood,silver| formerly black,unknown,Unknown,Skilled in the Dark Arts,Pre 1965,24-Jun
+95,Kingsley Shacklebolt,male,Auror  | Minister for Magic,Unknown,Unknown,Unknown,Unknown,Lynx,Human,Pure-blood,bald,black,Order of the Phoenix,Exceptionally skilled duellist and Auror,Pre 1973,Unknown
+96,Alastor Moody,male,Auror ,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood,grey,half-dark,Unknown,Unknown,Unknown,Unknown
+97,Alice Longbottom,female,Auror,Unknown,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,blonde,unknown,Original Order of the Phoenix,Auror,Unknown,Unknown
+98,Frank Longbottom,male,Auror,Gryffindor,"13""",Cherry,Unicorn Tail Hair,Unknown,Human,Pure-blood,unknown,unknown,Unknown,Unknown,Unknown,Unknown
+99,Rufus Scrimgeour,male,Head of Auror Office| Minister for Magic,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood,tawny,yellowish,Minister of Magic,Highly regarded as a skilled Auror,Pre 1968,1-Aug
+100,Cornelius Oswald Fudge,male,Minister for Magic,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood or Half-blood,grey,unknown,Minister of Magic,Turning a blind eye to the continuing threat of Dark Magic in the name of keeping up morale,Pre 1964,Unknown
+101,Barty Crouch Sr.,male,Head of the Department of International Magical Cooperation,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood,grey,unknown,Minister of Magic,Multilingual,Unknown,Unknown
+102,Amos Diggory,male,Employee of the Department for the Regulation and Control of Magical Creatures,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood or half-blood,brown,ruddy,Minister of Magic,Works for the Department for the Regulation and Control of Magical Creatures,Unknown,Unknown
+103,Dedalus Diggle,male,Unknown,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood or half-blood,unknown,unknown,Order of the Phoenix,An enthusiastic volunteer for the Order and a helpful escort for Harry and his relatives,Pre 1964,Unknown
+104,Elphias Doge,male,Special Advisor to the Wizengamot,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human,Pure-blood,silver,grey | blue,Order of the Phoenix,Writing, 1 September 1880 - 31 August 1881,Unknown
+105,Fleur Isabelle Delacour,female,Part-time at Gringotts Wizarding Bank,Beauxbatons Academy of Magic,"9½""",Unknown,Unknown,Unknown,Human,Quarter-Veela,unknown,unknown,Unknown,Unknown,Unknown,Unknown
+106,Aberforth Dumbledore,male,Owner and Barman of the Hog's Head Inn,Unknown,Unknown,Unknown,Unknown,Goat,Human,Half-blood,grey,bright blue,Order of the Phoenix,Bartending,Unknown,Unknown
+107,Mundungus Fletcher,male,Dealer of wizarding artifacts,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human,Half-blood,ginger,brown,Order of the Phoenix,Gathering information for the Order,Unknown,Unknown
+108,Sturgis Podmore,male,Advance Guard,Unknown,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,straw-colored,brown,Order of the Phoenix,Carrying out guard duty for the Order, 8 September 1956 - 7 September 1957,Unknown
+109,Hestia Jones,female,Advance Guard,Unknown,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,black,unknown,Order of the Phoenix,Carrying out escort missions for the Order,Pre 1978,Unknown
+110,Marlene McKinnon,female,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Human,Half-blood,red,brown,Original Order of the Phoenix,Unknown,Unknown,July
+111,Fabian Prewett,male,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,red,grey,Original Order of the Phoenix,Duelling,Unknown,1981
+112,Gideon Prewett,male,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,red,dark grey,Original Order of the Phoenix,Duelling,Unknown,1981
+113,Emmeline Vance,female,Advance Guard,Unknown,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood,unknown,unknown,Order of the Phoenix,Unknown,Pre 1964,Early July
+114,Edgar Bones,male,Unknown,Hufflepuff,Unknown,Unknown,Unknown,Unknown,Human,Pure-blood or half-blood,reddish-brown,grey,Original Order of the Phoenix,Said to be a great wizard,Unknown,1981
+115,Dorcas Meadowes,female,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Human,Half-blood,black,brown,Original Order of the Phoenix,Unknown,Unknown,1981
+116,Benjy Fenwick,male,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Human,Half-blood,black,black,Original Order of the Phoenix,Unknown,Unknown,1981
+117,Madame Olympe Maxime,female,Headmistress of Beauxbatons Academy of Magic,Beauxbatons Academy of Magic,Unknown,Unknown,Unknown,Unknown,Half-Human | Half-Giant,Part-Human | Half-giant,brown,black,Unknown,An ‘excellent dancer’,Unknown,Unknown
+118,Gabrielle Delacour,female,Unknown,Beauxbatons Academy of Magic,Unknown,Unknown,Unknown,Unknown,Human ,Quarter-Veela,silvery-blonde,unknown,Unknown,part Veela and therefore may possess some of their magical powers, 31 July 1985 - 30 July 1986,Unknown
+119,Viktor Krum,male,Seeker for the Bulgarian National Quidditch team,Durmstrang Institute,"10¼""",Unknown,Unknown,None,Human,Pure-blood,unknown,unknown,Unknown,Unknown,Unknown,Unknown
+120,Petunia Dursley,female,Unknown,None,None,None,None,None,Human ,Muggle,blonde,unknown,Unknown,Unknown,Pre 1960,Unknown
+121,Vernon Dursley,male,Director at Grunnings,None,None,None,None,None,Human ,Muggle,black,unknown,Unknown,Schmoozing clients,Unknown,Unknown
+122,Dudley Dursley,male,Unknown,None,None,None,None,None,Human ,Muggle,blonde,blue,Unknown,Unknown, 23 June 1980,Unknown
+123,Marge Dursley,female,Dog breeder,None,None,None,None,None,Human ,Muggle,grey,unknown,Unknown,Breeding bulldogs,Pre 1954,Unknown
+124,Dennis Creevey,male,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human ,Muggle-born,mousy,unknown,Dumbledore's Army,Unknown, 1 September 1982 - 31 August 1983,Unknown
+125,Albus Severus Potter,male,Student,Slytherin,Unknown,Unknown,Unknown,Unknown,Human ,Half-blood,jet-black,bright green,Unknown,Unknown,Between 1 September 2005-31 August 2006,Unknown
+126,Scorpius Hyperion Malfoy,male,Student,Slytherin,Unknown,Unknown,Unknown,Unknown,Human ,Pure-blood,white-blonde,grey,Unknown,Unknown,Between 1 September 2005-31 August 2007,Unknown
+127,Edward Remus Lupin,male,Student,Hufflepuff,Unknown,Unknown,Unknown,Unknown,Human (Metamorphmagus),Half-blood,varies,varies,Unknown,Unknown,April,Unknown
+128,James Sirius Potter,male,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human ,Half-blood,unknown,unknown,Unknown,Unknown,1 September 2003-31 August 2004,Unknown
+129,Rose Granger-Weasley,female,Student,Gryffindor,Unknown,Unknown,Unknown,Unknown,Human ,Half-blood,red,unknown,Unknown,Chaser,1 September 2005-31 August 2006 ,Unknown
+130,Argus Filch,male,Caretaker of Hogwarts,Unknown,None,None,None,None,Human ,Squib,grey,pale,Hogwarts School of Witchcraft and Wizardry,Sniffing out mischief,Pre 1951,Unknown
+131,Poppy Pomfrey,female,Matron at Hogwarts School,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human ,Pure-blood or half-blood,unknown,unknown,Hogwarts School of Witchcraft and Wizardry,Skilled medical healer,Pre 1954,Unknown
+132,Rolanda Hooch,female,Flying Instructor at Hogwarts,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human ,Half-blood,grey,yellow,Hogwarts School of Witchcraft and Wizardry,Teaching,Unknown,Unknown
+133,Irma Pince,female,Librarian at Hogwarts,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human ,Pure-blood,unknown,unknown,Hogwarts School of Witchcraft and Wizardry,Unknown,Pre 1966,Unknown
+134,Aurora Sinistra,female,Astronomer at Hogwarts,Unknown,Unknown,Unknown,Unknown,Unknown,Human ,Pure-blood or half-blood,dark,dark,Hogwarts School of Witchcraft and Wizardry,Unknown,Pre 1968,Unknown
+135,Septima Vector,female,Professor of Arithmancyat Hogwarts,Unknown,Unknown,Unknown,Unknown,Unknown,Human ,Pure-blood,black,unknown,Hogwarts School of Witchcraft and Wizardry,Unknown,Before 1974,Unknown
+136,Wilhelmina Grubbly-Plank,female,Substitute professor of Care of Magical Creatures at Hogwarts,Unknown,Unknown,Unknown,Unknown,Non-corporeal,Human ,Unknown,grey,unknown,Hogwarts School of Witchcraft and Wizardry,Unknown,Unknown,Unknown
+137,Fenrir Greyback,male,Unknown,Unknown,Unknown,Unknown,Unknown,None,Werewolf,Pure-blood or half-blood,grey,unknown,Lord Voldemort  | Death Eaters,Physical combat,Pre 1945,Unknown
+138,Gellert Grindelwald,male,Revolutionary leader(c. 1920s[6] – 1945),Unknown,"15""",Unknown,Unknown,None,Human,Pure-blood,unknown,unknown,Unknown,Unknown,Unknown,Unknown
+139,Dobby,male,Malfoy family's house-elf (? - 1993),House-elf,None,None,None,None,House-elf,None,unknown,green,unknown,Unknown,Unknown,Unknown
+140,Kreacher,male,Unknown,House-elf,None,None,None,None,House-elf,None,unknown,unknown,unknown,Unknown,Unknown,Unknown

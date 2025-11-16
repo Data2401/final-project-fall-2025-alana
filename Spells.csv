@@ -1,62 +1,62 @@
-Spell ID,Incantation,Spell Name,Effect,Light,Type
-1,Accio,Summoning Charm,Summons an object,,Charm
-2,Aguamenti,Water-Making Spell,Conjures water,Icy blue,Charm
-3,Alarte Ascendare,Launch an object up into the air,Rockets target upward,Red,Spell
-4,Alohomora,Unlocking Charm,Unlocks target,Blue,Charm
-5,Arania Exumai,Spider repelling spell,Repels spiders,Blue,Spell
-6,Arresto Momentum,Slowing Charm,Slows or stops target's velocity,,Charm
-7,Avada Kedavra,Killing Curse,Instantaneous death,Green,Curse
-8,Bombarda,Exploding Charm,Small explosion,,Charm
-9,Brackium Emendo,Brackium Emendo,Mends bones,Blue,Spell
-10,Cistem Aperio,Cistem Aperio,Opens chests,White,Spell
-11,Colloportus,Locking Spell,Locks doors,,Charm
-12,Confringo,Blasting Curse,Explosion,Fiery Orange,Curse
-13,Crucio,Cruciatus Curse,Excruciating pain,Red,Curse
-14,Diffindo,Severing Charm,Cuts objects,Light green,Charm
-15,Dissendium,Dissendium,Reveals secret passages,,Charm
-16,Engorgio,Engorgement Charm,Causes swelling,Icy blue,Charm
-17,Episkey,Episkey,Heals minor injuries,,Spell
-18,Expecto Patronum,Patronus Charm,Conjures a spirit guardian,Silver,Charm
-19,Expelliarmus,Disarming Charm,Disarms an opponent,Scarlet,Curse
-20,Expulso,Expulso Curse,Blows things up,Blue,Curse
-21,Finite,General Counter-Spell,Terminates all spell effects,Red,Spell
-22,Homenum Revelio,Human Presence Revealing Spell,Reveals human presence,,Spell
-23,Immobulus,Freezing Charm,Stops movement and actions of the target,Blue,Charm
-24,Impedimenta,Impediment Jinx,Hinders movement,Turquoise,Jinx
-25,Imperio,Imperius Curse,Total control over the victim,,Curse
-26,Incarcerous,Incarcerous Spell,Binds target in ropes,,Spell
-27,Incendio,Fire-Making Spell,Conjures flames,Orange,Charm
-28,Levicorpus,Levicorpus,Suspends people by the ankles,Green,Spell
-29,Locomotor,Locomotion Charm,Moves objects in midair,,Charm
-30,Locomotor Mortis,Leg-Locker Curse,Sticks legs together,Purple,Curse
-31,Lumos,Wand-Lighting Charm,Illuminates the wand tip,White,Charm
-32,Lumos Maxima,Lumos Maxima,Produces bright light,White,Spell
-33,Lumos Solem,Lumos Solem Spell,Produces sunlight,Bright yellow,Spell
-34,Muffliato,Muffliato Charm,Conceals sound,,Charm
-35,Nox,Wand-Extinguishing Charm,Extinguishes wandlight,,Charm
-36,Obliviate,Memory Charm,Erases memories,Green,Charm
-37,Oculus Reparo,Oculus Reparo,Repairs glasses,,Charm
-38,Oppugno,Oppugno Jinx,Assaults target with directed object(s),,Jinx
-39,Peskipiksi Pesternomi,Peskipiksi Pesternomi,Nothing (supposedly captures pixies),,None
-40,Petrificus Totalus,Full Body-Bind Curse,Temporary Paralysis,White,Curse
-41,Piertotum Locomotor,Piertotum Locomotor,Animates target,Green,Spell
-42,Portus,Portus,Turns object into Portkey,Blue,Spell
-43,Priori Incantatem,Reverse Spell,Shows the previous spells cast by a wand,Gold,Spell
-44,Protego,Shield Charm,Reflects spells and blocks physical forces,,Charm
-45,Protego Maxima,Protego Maxima,Summons a large protective barrier,White,Charm
-46,Protego totalum,Protego totalum,Shields an area,,Charm
-47,Reducio,Shrinking Charm,Shrinks target,Purple,Charm
-48,Relashio,Revulsion Jinx,Forces target to let go,Purple,Jinx
-49,Reparo,Mending Charm,Fixes broken objects,,Charm
-50,Repello Inimicum,Repello Inimicum,Repels enemies. If used with Protego Maxima and Fianto Duri,,Charm
-51,Repello Muggletum,Muggle-Repelling Charm,Repels Muggles,Haze,Charm
-52,Revelio,Revelio Charm,Reveals secrets about a person or object,Blue,Charm
-53,Rictusempra,Tickling Charm,Tickles and weakens,Silver,Charm
-54,Riddikulus,Boggart-Banishing Spell,Turns a Boggart into something amusing,,Spell
-55,Salvio hexia,Salvio hexia,Hex deflection,Haze,Charm
-56,Sectumsempra,Sectumsempra,Lacerates target,White,Curse
-57,Serpensortia,Snake Summons Spell,Conjures snake,White,Spell
-58,Stupefy,Stunning Spell,Knocks out target,Red,Spell
-59,Vera Verto,Vera Verto,Transforms animals into water goblets,Crystal clear,Spell
-60,Vipera Evanesca,Snake-Vanishing Spell,Vanishes snakes,Black smoke,Spell
-61,Wingardium Leviosa,Levitation Charm,Makes objects fly,,Charm
+Spell ID,Incantation,Spell Name,Effect,Light,Type,Offensive or Defensive
+1,Accio,Summoning Charm,Summons an object,,Charm,Neither
+2,Aguamenti,Water-Making Spell,Conjures water,Icy blue,Charm,Neither
+3,Alarte Ascendare,Launch an object up into the air,Rockets target upward,Red,Spell,Offensive
+4,Alohomora,Unlocking Charm,Unlocks target,Blue,Charm,Neither
+5,Arania Exumai,Spider repelling spell,Repels spiders,Blue,Spell,Offensive
+6,Arresto Momentum,Slowing Charm,Slows or stops target's velocity,,Charm,Defensive
+7,Avada Kedavra,Killing Curse,Instantaneous death,Green,Curse,Offensive
+8,Bombarda,Exploding Charm,Small explosion,,Charm,Offensive
+9,Brackium Emendo,Brackium Emendo,Mends bones,Blue,Spell,Neither
+10,Cistem Aperio,Cistem Aperio,Opens chests,White,Spell,Neither
+11,Colloportus,Locking Spell,Locks doors,,Charm,Defensive
+12,Confringo,Blasting Curse,Explosion,Fiery Orange,Curse,Offensive
+13,Crucio,Cruciatus Curse,Excruciating pain,Red,Curse,Offensive
+14,Diffindo,Severing Charm,Cuts objects,Light green,Charm,Offensive
+15,Dissendium,Dissendium,Reveals secret passages,,Charm,Defensive
+16,Engorgio,Engorgement Charm,Causes swelling,Icy blue,Charm,Neither
+17,Episkey,Episkey,Heals minor injuries,,Spell,Neither
+18,Expecto Patronum,Patronus Charm,Conjures a spirit guardian,Silver,Charm,Defensive
+19,Expelliarmus,Disarming Charm,Disarms an opponent,Scarlet,Curse,Both
+20,Expulso,Expulso Curse,Blows things up,Blue,Curse,Offensive
+21,Finite,General Counter-Spell,Terminates all spell effects,Red,Spell,Defensive
+22,Homenum Revelio,Human Presence Revealing Spell,Reveals human presence,,Spell,Neither
+23,Immobulus,Freezing Charm,Stops movement and actions of the target,Blue,Charm,Defensive
+24,Impedimenta,Impediment Jinx,Hinders movement,Turquoise,Jinx,Defensive
+25,Imperio,Imperius Curse,Total control over the victim,,Curse,Offensive
+26,Incarcerous,Incarcerous Spell,Binds target in ropes,,Spell,Offensive
+27,Incendio,Fire-Making Spell,Conjures flames,Orange,Charm,Offensive
+28,Levicorpus,Levicorpus,Suspends people by the ankles,Green,Spell,Offensive
+29,Locomotor,Locomotion Charm,Moves objects in midair,,Charm,Neither
+30,Locomotor Mortis,Leg-Locker Curse,Sticks legs together,Purple,Curse,Offensive
+31,Lumos,Wand-Lighting Charm,Illuminates the wand tip,White,Charm,Neither
+32,Lumos Maxima,Lumos Maxima,Produces bright light,White,Spell,Neither
+33,Lumos Solem,Lumos Solem Spell,Produces sunlight,Bright yellow,Spell,Neither
+34,Muffliato,Muffliato Charm,Conceals sound,,Charm,Neither
+35,Nox,Wand-Extinguishing Charm,Extinguishes wandlight,,Charm,Neither
+36,Obliviate,Memory Charm,Erases memories,Green,Charm,Offensive
+37,Oculus Reparo,Oculus Reparo,Repairs glasses,,Charm,Neither
+38,Oppugno,Oppugno Jinx,Assaults target with directed object(s),,Jinx,Offensive
+39,Peskipiksi Pesternomi,Peskipiksi Pesternomi,Nothing (supposedly captures pixies),,None,Neither
+40,Petrificus Totalus,Full Body-Bind Curse,Temporary Paralysis,White,Curse,Offensive
+41,Piertotum Locomotor,Piertotum Locomotor,Animates target,Green,Spell,Both
+42,Portus,Portus,Turns object into Portkey,Blue,Spell,Neither
+43,Priori Incantatem,Reverse Spell,Shows the previous spells cast by a wand,Gold,Spell,Defensive
+44,Protego,Shield Charm,Reflects spells and blocks physical forces,,Charm,Defensive
+45,Protego Maxima,Protego Maxima,Summons a large protective barrier,White,Charm,Defensive
+46,Protego totalum,Protego totalum,Shields an area,,Charm,Defensive
+47,Reducio,Shrinking Charm,Shrinks target,Purple,Charm,Neither
+48,Relashio,Revulsion Jinx,Forces target to let go,Purple,Jinx,Both
+49,Reparo,Mending Charm,Fixes broken objects,,Charm,Neither
+50,Repello Inimicum,Repello Inimicum,Repels enemies. If used with Protego Maxima and Fianto Duri,,Charm,Defensive
+51,Repello Muggletum,Muggle-Repelling Charm,Repels Muggles,Haze,Charm,Defensive
+52,Revelio,Revelio Charm,Reveals secrets about a person or object,Blue,Charm,Neither
+53,Rictusempra,Tickling Charm,Tickles and weakens,Silver,Charm,Offensive
+54,Riddikulus,Boggart-Banishing Spell,Turns a Boggart into something amusing,,Spell,Defensive
+55,Salvio hexia,Salvio hexia,Hex deflection,Haze,Charm,Defensive
+56,Sectumsempra,Sectumsempra,Lacerates target,White,Curse,Offensive
+57,Serpensortia,Snake Summons Spell,Conjures snake,White,Spell,Offensive
+58,Stupefy,Stunning Spell,Knocks out target,Red,Spell,Offensive
+59,Vera Verto,Vera Verto,Transforms animals into water goblets,Crystal clear,Spell,Neither
+60,Vipera Evanesca,Snake-Vanishing Spell,Vanishes snakes,Black smoke,Spell,Defensive
+61,Wingardium Leviosa,Levitation Charm,Makes objects fly,,Charm,Neither
